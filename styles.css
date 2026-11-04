@@ -1,0 +1,39 @@
+/* External stylesheet shared by all pages */
+body {
+  background-color: #e8f5e9;          /* background color */
+  font-family: Verdana, Arial, sans-serif;   /* font */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+#main-heading {                        /* id selector: styled heading */
+  color: #1b5e20;
+  font-size: 2.2em;
+  text-shadow: 2px 2px #a5d6a7;
+  border-bottom: 3px solid #2e7d32;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.round-pic {                           /* class selector: round picture */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2e7d32;
+  margin: 15px auto;
+  display: block;
+}
+.form-box {                            /* class selector: bordered form */
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+  text-align: left;
+}
+.form-box input[type=text], .form-box input[type=email] {
+  width: 95%; padding: 6px; margin: 5px 0 12px;
+}
+.btn { background:#2e7d32; color:#fff; padding:8px 16px; border:none; border-radius:4px; cursor:pointer; }
+a { color: #1b5e20; font-weight: bold; }
